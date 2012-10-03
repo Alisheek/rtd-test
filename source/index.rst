@@ -50,6 +50,13 @@ Contents:
    :statuscode 404: there's no user
 
 
+.. http:method:: GET /api/foo/bar/{id}/?slug
+
+   :arg integer id: An id
+   :optparam string slug: A slug
+
+   Search for a list of foobars matching given id.
+
 
 Indices and tables
 ==================
